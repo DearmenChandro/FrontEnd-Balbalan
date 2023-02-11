@@ -65,8 +65,8 @@ form .input-group .form-input p svg {
 }
 
 form .input-group .form-input input {
-  height: 2.5rem;
-  width: 25rem;
+  height: 3.5rem;
+  width: 31rem;
   border-radius: 1rem;
   padding-left: 1rem;
 }
@@ -103,6 +103,7 @@ form .input-group .form-input p {
   transition: 0.2s linear;
 }
 
+/* Button Section */
 .group-button {
   display: flex;
   justify-content: center;
@@ -112,17 +113,19 @@ form .input-group .form-input p {
 .group-button #register-button {
   background-color: #1a4645;
   color: #fdfdfd;
-  width: 11rem;
-  height: 2.5rem;
+  width: 15rem;
+  height: 3.5rem;
   border-top-right-radius: 1rem;
   cursor: pointer;
+  margin-top: 3rem;
 }
 
 .group-button #back-button {
-  width: 11rem;
-  height: 2.5rem;
+  width: 15rem;
+  height: 3.5rem;
   border-top-left-radius: 1rem;
   cursor: pointer;
+  margin-top: 3rem;
 }
 
 .group-button #register-button:hover {
