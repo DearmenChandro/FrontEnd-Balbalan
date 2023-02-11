@@ -116,14 +116,14 @@ form .input-group .form-input p {
   background-color: #1a4645;
   color: #fdfdfd;
   width: 16rem;
-  height: 3.5rem;
+  height: 3.7rem;
   border-top-right-radius: 1.5rem;
   cursor: pointer;
 }
 
 .group-button #back-button {
   width: 15rem;
-  height: 3.5rem;
+  height: 3.7rem;
   border-top-left-radius: 1.5rem;
   cursor: pointer;
 }
