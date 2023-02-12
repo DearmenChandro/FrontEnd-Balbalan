@@ -94,7 +94,7 @@
     <div class="group-button">
 
 
-        <button id="back-button" type="button" href="#">
+        <button id="back-button" type="button" href="#" onclick="goBack()">
 
             <i data-feather="arrow-left"></i>
 
@@ -120,6 +120,9 @@
     <!-- Feather Icons -->
     <script>
         feather.replace();
+        function goBack() {
+            window.history.back();
+        }
     </script>
 
 </body>
