@@ -144,7 +144,7 @@ form .input-group .form-input p {
 }
 
 /* Tablet */
-@media (max-width: 810px) {
+@media (max-width: 820px) {
   /* responsive break points */
   html {
     font-size: 75%;
