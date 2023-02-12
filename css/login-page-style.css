@@ -113,13 +113,14 @@ form .input-group .form-input p {
   margin-top: 3rem;
 }
 
-.group-button #register-button {
+.group-button #login-button {
   background-color: #1a4645;
   color: #fdfdfd;
   width: 16rem;
   height: 3.7rem;
   border-top-right-radius: 1.5rem;
   cursor: pointer;
+  font-family: "Roboto", sans-serif;
 }
 
 .group-button #back-button {
@@ -129,7 +130,7 @@ form .input-group .form-input p {
   cursor: pointer;
 }
 
-.group-button #register-button:hover {
+.group-button #login-button:hover {
   background-color: #4cadac;
 }
 
@@ -151,15 +152,12 @@ form .input-group .form-input p {
 
   header {
     margin-bottom: 3rem;
+    display: flex;
+    justify-content: center;
   }
 
   .group-button {
     margin-top: 8rem;
-  }
-
-  .group-button #register-button {
-    font-size: 100%;
-    font-family: "Roboto", sans-serif;
   }
 
   .group-button #back-button svg {
@@ -177,5 +175,19 @@ form .input-group .form-input p {
   header {
     display: flex;
     justify-content: center;
+  }
+  .register-cta {
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+    margin-bottom: 18rem;
+  }
+}
+
+/* mini */
+@media (max-width: 360px) {
+  /* responsive break points */
+  html {
+    font-size: 65%;
   }
 }
