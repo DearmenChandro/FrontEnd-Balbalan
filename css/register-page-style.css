@@ -118,6 +118,7 @@ form .input-group .form-input p {
   width: 15rem;
   height: 3.5rem;
   border-top-right-radius: 1rem;
+  border-bottom-right-radius: 1rem;
   cursor: pointer;
   margin-top: 3rem;
 }
@@ -126,6 +127,7 @@ form .input-group .form-input p {
   width: 15rem;
   height: 3.5rem;
   border-top-left-radius: 1rem;
+  border-bottom-left-radius: 1rem;
   cursor: pointer;
   margin-top: 3rem;
 }

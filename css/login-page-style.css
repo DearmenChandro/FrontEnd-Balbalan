@@ -119,6 +119,7 @@ form .input-group .form-input p {
   width: 16rem;
   height: 3.7rem;
   border-top-right-radius: 1.5rem;
+  border-bottom-right-radius: 1.5rem;
   cursor: pointer;
   font-family: "Roboto", sans-serif;
 }
@@ -127,6 +128,7 @@ form .input-group .form-input p {
   width: 15rem;
   height: 3.7rem;
   border-top-left-radius: 1.5rem;
+  border-bottom-left-radius: 1.5rem;
   cursor: pointer;
 }
 
