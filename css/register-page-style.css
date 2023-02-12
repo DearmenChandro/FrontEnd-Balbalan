@@ -146,7 +146,7 @@ form .input-group .form-input p {
 @media (max-width: 810px) {
   /* responsive break points */
   html {
-    font-size: 70%;
+    font-size: 75%;
   }
 
   header {
@@ -172,10 +172,16 @@ form .input-group .form-input p {
 @media (max-width: 450px) {
   /* responsive break points */
   html {
-    font-size: 68.5%;
+    font-size: 75%;
   }
   header {
     display: flex;
     justify-content: center;
+  }
+  .login-cta {
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+    margin-bottom: 18rem;
   }
 }
