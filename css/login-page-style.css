@@ -24,18 +24,19 @@ body {
 }
 
 /* Header section */
-header .headsection {
-  width: fit-content;
+
+header .headclass .headsection {
+  width: 100%;
   display: flex;
-  margin: 2rem 2.5rem 0.5rem;
+  padding: 2rem 2%;
 }
 
-header .headsection #logo {
+header .headclass .headsection #logo {
   height: 7rem;
   width: 3.8rem;
 }
 
-header .headsection #logo-tulisan {
+header .headclass .headsection #logo-tulisan {
   height: 5rem;
   width: 20rem;
   margin-left: 1rem;
@@ -43,37 +44,31 @@ header .headsection #logo-tulisan {
 }
 
 /* Content Section */
-form {
+.content form {
   justify-content: center;
   display: flex;
   justify-content: center;
+  padding: 2rem 35%;
 }
 
-form .form-input {
-  margin-top: 1.2rem;
-}
-
-form .input-group {
+.content form .input-group {
+  width: 100%;
   font-family: "Roboto", sans-serif;
-  font-size: 1.1rem;
-  margin-bottom: 1rem;
 }
-
-form .input-group .form-input p svg {
+.content form .input-group .form-input input {
+  height: 3.3rem;
+  width: 100%;
+  border-radius: 1.3rem;
+  padding-left: 1rem;
+}
+.content form .input-group .form-input p svg {
   height: 1.3rem;
   width: 1.3rem;
   padding-top: 0.3rem;
   cursor: pointer;
 }
 
-form .input-group .form-input input {
-  height: 3.3rem;
-  width: 30rem;
-  border-radius: 1.3rem;
-  padding-left: 1rem;
-}
-
-form .input-group .form-input p {
+.content form .input-group .form-input p {
   margin-right: 0.5rem;
 }
 
@@ -81,8 +76,7 @@ form .input-group .form-input p {
 .register-cta {
   display: flex;
   justify-content: center;
-  margin-top: 3rem;
-  margin-bottom: 15rem;
+  margin-bottom: 17rem;
 }
 
 .register-cta a {
@@ -113,23 +107,31 @@ form .input-group .form-input p {
   margin-top: 3rem;
 }
 
+.group-button {
+  padding: 2rem 33%;
+}
+
+.group-button #back-button {
+  width: 100%;
+  height: 3.5rem;
+  border-top-left-radius: 1rem;
+  border-bottom-left-radius: 1rem;
+  cursor: pointer;
+}
+
 .group-button #login-button {
   background-color: #1a4645;
+  width: 100%;
+  height: 3.5rem;
+  border-top-right-radius: 1rem;
+  border-bottom-right-radius: 1rem;
   color: #fdfdfd;
-  width: 16rem;
-  height: 3.7rem;
-  border-top-right-radius: 1.5rem;
-  border-bottom-right-radius: 1.5rem;
   cursor: pointer;
   font-family: "Roboto", sans-serif;
 }
 
-.group-button #back-button {
-  width: 15rem;
-  height: 3.7rem;
-  border-top-left-radius: 1.5rem;
-  border-bottom-left-radius: 1.5rem;
-  cursor: pointer;
+.group-button #back-button svg {
+  stroke-width: 0.1rem;
 }
 
 .group-button #login-button:hover {
@@ -154,17 +156,14 @@ form .input-group .form-input p {
 
   header {
     margin-bottom: 3rem;
-    display: flex;
-    justify-content: center;
+  }
+
+  .content form {
+    padding: 2rem 18%;
   }
 
   .group-button {
-    margin-top: 8rem;
-  }
-
-  .group-button #back-button svg {
-    height: 80%;
-    width: 80%;
+    padding: 2rem 25%;
   }
 }
 
@@ -181,8 +180,14 @@ form .input-group .form-input p {
   .register-cta {
     display: flex;
     justify-content: center;
-    margin-top: 3rem;
     margin-bottom: 19rem;
+  }
+  .content form {
+    padding: 2rem 8%;
+  }
+
+  .group-button {
+    padding: 2rem 8%;
   }
 }
 
