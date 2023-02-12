@@ -20,6 +20,7 @@ body {
   font-family: "Roboto", sans-serif;
   background-color: var(--bg);
   color: #fdfdfd;
+  font-size: 1.1rem;
 }
 
 /* Header section */
@@ -67,7 +68,7 @@ form .input-group .form-input p svg {
 form .input-group .form-input input {
   height: 3.5rem;
   width: 31rem;
-  border-radius: 1rem;
+  border-radius: 1.2rem;
   padding-left: 1rem;
 }
 
@@ -145,7 +146,7 @@ form .input-group .form-input p {
 @media (max-width: 810px) {
   /* responsive break points */
   html {
-    font-size: 62.5%;
+    font-size: 70%;
   }
 
   header {
@@ -171,7 +172,7 @@ form .input-group .form-input p {
 @media (max-width: 450px) {
   /* responsive break points */
   html {
-    font-size: 55%;
+    font-size: 68.5%;
   }
   header {
     display: flex;
