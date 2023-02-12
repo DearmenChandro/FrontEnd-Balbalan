@@ -55,6 +55,11 @@ header .headclass .headsection #logo-tulisan {
   width: 100%;
   font-family: "Roboto", sans-serif;
 }
+
+.content form .input-group .form-input {
+  margin-bottom: 1rem;
+}
+
 .content form .input-group .form-input input {
   height: 3.3rem;
   width: 100%;
