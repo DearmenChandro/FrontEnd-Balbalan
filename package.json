@@ -1,0 +1,26 @@
+{
+  "name": "frontend-balbalan",
+  "version": "1.0.0",
+  "description": "Mau nyoba inisasi back-end",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DearmenChandro/FrontEnd-Balbalan.git"
+  },
+  "author": "anggarustico",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DearmenChandro/FrontEnd-Balbalan/issues"
+  },
+  "homepage": "https://github.com/DearmenChandro/FrontEnd-Balbalan#readme",
+  "dependencies": {
+    "body-parser": "^1.20.1",
+    "express.js": "^1.0.0",
+    "knex": "^2.4.2",
+    "nodemon": "^2.0.20",
+    "pg": "^8.9.0"
+  }
+}
