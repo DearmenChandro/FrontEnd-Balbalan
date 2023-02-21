@@ -5,128 +5,394 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Login | BalbalanID</title>
+    <title> Welcome to BalbalanID</title>
 
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter&family=Roboto:wght@100;300;400&display=swap"
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600;700&display=swap"
         rel="stylesheet">
 
     <!-- Feather Icons -->
     <script src="https://unpkg.com/feather-icons"></script>
 
     <!-- My Style -->
-    <link rel="stylesheet" href="css/login-page-style.css" />
+    <link rel="stylesheet" href="css/index-style.css" />
+
+    <!-- Swiper CSS -->
+    <link rel="stylesheet" href="css/swiper-bundle.min.css">
+
 </head>
 
 <body>
 
-    <!-- Header Start -->
+    <!-- Section A Start -->
+
+    <section class="section-a">
+
+        <div class="green-bg">
+
+
+            <!-- Header Start -->
+            <header class="header">
+                <img src="img/logo-full.png" alt="logo-full">
+
+                <div class="menu-group">
+                    <div class="menu">
+                        <div class="menu-button">
+                            <a href="#">BERANDA</a>
+                        </div>
+                    </div>
+                    <div class="menu">
+                        <div class="menu-button" id="booking-menu">
+                            <a href="#">BOOKING</a>
+                        </div>
+                    </div>
+                    <div class="menu">
+                        <div class="menu-button">
+                            <a href="#">RIWAYAT</a>
+                        </div>
+                    </div>
+                    <div class="menu">
+                        <div class="menu-button">
+                            <a href="#">AKUN</a>
+                        </div>
+                    </div>
+                </div>
+
+                <a href="user-role-page.html">Login</a>
+
+            </header>
+            <!-- Header End -->
+
+            <div class="text-group">
+
+                <div class="text-group-1">
+
+
+                    <p>BOOKING LAPANGAN</p>
+                    <p id="ft-2">TANPA HARUS DATANG KE LAPANGAN</p>
+                    <p>SEKARANG JUGA!</p>
+                    <p id="ft-4">Cari lapangan kosong terdekat dan terbaik dengan mudah!</p>
 
 
 
-    <header>
+                </div>
 
-        <section class="headclass">
-
-            <div class="headsection">
-
-                <img src="img/logo.png" alt="logo" id="logo">
-                <img src="img/logo-tulisan.png" alt="logo" id="logo-tulisan">
 
 
             </div>
 
 
-        </section>
-
-    </header>
-
-
-
-    <!-- Header End -->
+            <div class="slide-container swiper">
+                <div class="slide-content">
+                    <div class="card-wrapper swiper-wrapper">
 
 
+                        <div class="card swiper-slide">
+                            <div class="image-content">
+                                <div class="card-image">
+                                    <img src="img/gor-pancasila.jpeg" alt="" class="card-img">
+                                </div>
+                            </div>
+                            <div class="card-content">
+                                <div class="card-content-text">
+                                    <h1>GOR Pancasila</h1>
+                                    <p>Basket, Badminton, dan Futsal</p>
+                                    <div class="star-range">
+                                        <p>5.0 <i data-feather="star"></i> </p>
+                                        <p>4.7 km</p>
+                                    </div>
+                                    <p id="availP">Available at:</p>
+                                </div>
+
+                                <div class="card-content-time">
+                                    <p>06:00 - 07:00</p>
+                                    <p>06:00 - 07:00</p>
+                                    <p>06:00 - 07:00</p>
+                                    <p>06:00 - 07:00</p>
+                                    <p>06:00 - 07:00</p>
+                                    <p>06:00 - 07:00</p>
+                                    <p>06:00 - 07:00</p>
+                                    <p>06:00 - 07:00</p>
+                                    <p>06:00 - 07:00</p>
+                                </div>
+                            </div>
+                        </div>
 
 
-    <!-- content start -->
-    <section class="content">
+                        <div class="card swiper-slide">
+                            <div class="image-content">
+                                <div class="card-image">
+                                    <img src="img/gor-amongrogo.jpg" alt="" class="card-img">
+                                </div>
+                            </div>
+                            <div class="card-content">
+                                <div class="card-content-text">
+                                    <h1>GOR Amongrogo</h1>
+                                    <p>Basket, Badminton, dan Futsal</p>
+                                    <div class="star-range">
+                                        <p>4.7 <i data-feather="star"></i> </p>
+                                        <p>2.7 km</p>
+                                    </div>
+                                    <p id="availP">Available at:</p>
+                                </div>
 
-        <form action="">
+                                <div class="card-content-time">
+                                    <p>06:00 - 07:00</p>
+                                    <p>06:00 - 07:00</p>
+                                    <p>06:00 - 07:00</p>
+                                    <p>06:00 - 07:00</p>
+                                    <p>06:00 - 07:00</p>
+                                    <p>06:00 - 07:00</p>
+                                    <p>06:00 - 07:00</p>
+                                    <p>06:00 - 07:00</p>
+                                    <p>06:00 - 07:00</p>
+                                </div>
+                            </div>
+                        </div>
 
-            <div class="input-group">
+
+
+                        <div class="card swiper-slide">
+                            <div class="image-content">
+                                <div class="card-image">
+                                    <img src="img/bardosono-futsal.jpg" alt="" class="card-img">
+                                </div>
+                            </div>
+                            <div class="card-content">
+                                <div class="card-content-text">
+                                    <h1>Bardosono Happy Futsal</h1>
+                                    <p>Futsal</p>
+                                    <div class="star-range">
+                                        <p>4.5 <i data-feather="star"></i> </p>
+                                        <p>1.9 km</p>
+                                    </div>
+                                    <p id="availP">Available at:</p>
+                                </div>
+
+                                <div class="card-content-time">
+                                    <p>06:00 - 07:00</p>
+                                    <p>06:00 - 07:00</p>
+                                    <p>06:00 - 07:00</p>
+                                    <p>06:00 - 07:00</p>
+                                    <p>06:00 - 07:00</p>
+                                    <p>06:00 - 07:00</p>
+                                    <p>06:00 - 07:00</p>
+                                    <p>06:00 - 07:00</p>
+                                    <p>06:00 - 07:00</p>
+                                </div>
+                            </div>
+                        </div>
 
 
 
-                <div class="form-input">
-                    <p>Username
-                        <i data-feather="info"></i>
-                    </p>
-                    <input type="text" placeholder="Username">
+                        <div class="card swiper-slide">
+                            <div class="image-content">
+                                <div class="card-image">
+                                    <img src="img/gor-lembah.jpg" alt="" class="card-img">
+                                </div>
+                            </div>
+                            <div class="card-content">
+                                <div class="card-content-text">
+                                    <h1>GOR Lembah UGM</h1>
+                                    <p>Badminton</p>
+                                    <div class="star-range">
+                                        <p>5.0 <i data-feather="star"></i> </p>
+                                        <p>0.9 km</p>
+                                    </div>
+                                    <p id="availP">Available at:</p>
+                                </div>
+
+                                <div class="card-content-time">
+                                    <p>06:00 - 07:00</p>
+                                    <p>06:00 - 07:00</p>
+                                    <p>06:00 - 07:00</p>
+                                    <p>06:00 - 07:00</p>
+                                    <p>06:00 - 07:00</p>
+                                    <p>06:00 - 07:00</p>
+                                    <p>06:00 - 07:00</p>
+                                    <p>06:00 - 07:00</p>
+                                    <p>06:00 - 07:00</p>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="card swiper-slide">
+                            <div class="image-content">
+                                <div class="card-image">
+                                    <img src="img/gor-lembah.jpg" alt="" class="card-img">
+                                </div>
+                            </div>
+                            <div class="card-content">
+                                <div class="card-content-text">
+                                    <h1>GOR Lembah UGM</h1>
+                                    <p>Badminton</p>
+                                    <div class="star-range">
+                                        <p>5.0 <i data-feather="star"></i> </p>
+                                        <p>0.9 km</p>
+                                    </div>
+                                    <p id="availP">Available at:</p>
+                                </div>
+
+                                <div class="card-content-time">
+                                    <p>06:00 - 07:00</p>
+                                    <p>06:00 - 07:00</p>
+                                    <p>06:00 - 07:00</p>
+                                    <p>06:00 - 07:00</p>
+                                    <p>06:00 - 07:00</p>
+                                    <p>06:00 - 07:00</p>
+                                    <p>06:00 - 07:00</p>
+                                    <p>06:00 - 07:00</p>
+                                    <p>06:00 - 07:00</p>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+                        <div class="card swiper-slide" id="last-card">
+                            <div class="box-content-text">
+                                <div class="bg-content-text">
+                                    <p>DAN MASIH BANYAK LAGI!</p>
+                                    <p>MARI BOOKING LAPANGAN SEKARANG JUGA</p>
+                                    <p>MEMAJUKAN SEMANGAT OLAHRAGA</p>
+                                    <p>BERSAMA PLATFORM ANDALAN KITA</p>
+                                    <p id="yellow-font">BALBALAN.ID !</p>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+                    </div>
+
+
                 </div>
-
-
-                <div class="form-input">
-                    <p>Password
-                        <i data-feather="info"></i>
-                    </p>
-                    <input type="text" placeholder="Password">
-                </div>
-
-
-
-
+                <div class="swiper-pagination"></div>
             </div>
 
+
+
+            <div class="button-row-A">
+                <a href="login-page-user.html"> BOOK NOW </a>
+            </div>
+
+        </div>
     </section>
 
-    </form>
+    <!-- Section A End -->
 
-    <div class="register-cta">
-        <p>Dont'have any account?&nbsp;</p>
-        <a href="register-page-user.html">Register &nbsp;</a>
-        <a href="struk-page.html">Struk &nbsp</a>
-        <a href="user-role-page.html">User</a>
-    </div>
-
-    <!-- content end -->
-
-    <!-- Button Start -->
-    <div class="group-button">
-
-
-        <button id="back-button" type="button" href="#" onclick="goBack()">
-
-            <i data-feather="arrow-left"></i>
-
-        </button>
-
-
-        <button id="login-button" href="#">
-
-            Login
-
-        </button>
-
-
-    </div>
-    <!-- Button End -->
+    <!-- Section B Start -->
+    <section class="section-b">
+        <div class="green-bg">
 
 
 
+            <div class="text-group-b">
 
+                <div class="text-group-b1">
+
+
+                    <p>PUNYA LAPANGAN?</p>
+                    <p>DAFTAR MENJADI <span>MITRA BALBALAN</span> </p>
+                    <p>AGAR MONITORING RESERVASI</p>
+                    <p>MENJADI LEBIH MUDAH</p>
+
+                    <div class="text-group-mini">
+
+
+                        <p>Semua reservasi dilakukan secara otomatis dan monitoring reservasi lebih
+                            mudah dilakukan dengan
+                            balbalan</p>
+
+                    </div>
+
+                </div>
+
+
+
+            </div>
+
+            <!-- vertical carousel -->
+            <div class="content-wrapper-row">
+                <div class="content-wrapper">
+                    <div class="text-group">
+                        <div class="title-group">
+                            <h1>GOR PANCASILA</h1>
+                            <p>28 Februari 2023</p>
+                        </div>
+
+                        <div class="content">
+                            <div class="content-title-carousel">
+                                <p>JAM</p>
+                                <p>STATUS</p>
+                                <p>BOOKED BY</p>
+                                <p>PAYMENT WITH</p>
+                            </div>
+
+                            <div class="content-carousel">
+
+                                <p>09.00-10.00</p>
+                                <p id="book-status">BOOKED</p>
+                                <p id="booked-by">GAMAFORCE</p>
+                                <p id="payment">GOPAY</p>
+
+                            </div>
+                            <div class="content-carousel" id="second-content-carousel">
+
+                                <p>10.00-11.00</p>
+                                <p id="book-status">AVAILABLE</p>
+                                <p id="booked-by">-</p>
+                                <p id="payment">-</p>
+
+                            </div>
+                            <div class="content-carousel" id="last-content-carousel">
+
+                                <p>11.00-12.00</p>
+                                <p id="book-status">BOOKED</p>
+                                <p id="booked-by">GMRT</p>
+                                <p id="payment">BCA VA</p>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="button-row-B">
+                <a href="#"> DAFTAR SEKARANG</a>
+            </div>
+
+        </div>
+
+        </div>
+
+        </div>
+    </section>
+    <!-- Section B End -->
 
 
 
     <!-- Feather Icons -->
     <script>
         feather.replace();
-        function goBack() {
-            window.history.back();
-        }
     </script>
 
+    <!-- Swiper JS -->
+    <script src="js/swiper-bundle.min.js"></script>
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+    <!-- My Javacript -->
+    <script src="js/index-js.js"></script>
+
+
 </body>
+
 
 </html>
