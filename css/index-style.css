@@ -583,8 +583,30 @@ body {
     left: 0;
     display: flex;
     justify-content: space-between;
-    padding: 0.8rem 1% 0.2rem;
+    padding: 0rem 1% 0rem;
     background-color: #04863f;
+  }
+
+  .menu-group-bottom .menu-bottom .menu-button-bottom-1 img {
+    position: absolute;
+    bottom: 3rem;
+    left: 3rem;
+    width: 8rem;
+    height: 8rem;
+  }
+
+  .menu-group-bottom .menu-bottom .menu-button-bottom-2 img {
+    width: 4rem;
+    height: 4rem;
+  }
+
+  .menu-group-bottom .menu-bottom .menu-button-bottom-3 img {
+    height: 3.8rem;
+    width: 2.8rem;
+  }
+  .menu-group-bottom .menu-bottom .menu-button-bottom-4 img {
+    height: 4rem;
+    width: 2.8rem;
   }
 
   .menu-group-bottom .menu-bottom {
@@ -605,12 +627,6 @@ body {
     letter-spacing: 0.2rem;
     text-shadow: 0rem 0.4rem 0.2rem rgb(57, 57, 57);
     font-size: 1.3rem;
-  }
-
-  .menu-group-bottom .menu-bottom .menu-button-bottom-1 img {
-    position: absolute;
-    bottom: 3rem;
-    left: 2rem;
   }
 
   .menu-group-bottom .menu-bottom .menu-button-bottom-1 {
