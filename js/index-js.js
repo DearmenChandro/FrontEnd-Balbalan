@@ -5,6 +5,7 @@ var swiper = new Swiper(".slide-content", {
     slidesPerView: "auto",
     spaceBetween: 10,
     loop: true,
+    speed: 700,
     autoplay: {
         delay: 2500,
         disableOnInteraction: false,
