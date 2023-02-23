@@ -25,7 +25,7 @@ body {
 
 .section-a .green-bg,
 .section-b .green-bg {
-  background-color: rgba(5, 51, 24, 0.881);
+  background-color: rgba(5, 51, 24, 0.85);
   backdrop-filter: blur(0.2rem);
 }
 
