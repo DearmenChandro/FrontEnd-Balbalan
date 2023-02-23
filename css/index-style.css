@@ -15,6 +15,7 @@ body {
   font-family: "Poppins", sans-serif;
   font-size: 2rem;
   color: #fdfdfd;
+  background-color: #025628;
 }
 
 .section-a {
@@ -38,6 +39,11 @@ body {
   font-size: 1.5rem;
 }
 
+.section-a .green-bg .header img {
+  height: 4rem;
+  width: 17rem;
+}
+
 .section-a .green-bg .header a {
   padding: 0.2rem 1%;
   background-color: #54d3aa;
@@ -54,30 +60,35 @@ body {
   background-color: #37896f;
 }
 
-.section-a .green-bg .header .menu-group {
+.menu-group {
   display: flex;
   justify-content: space-between;
   background-color: none;
+  position: absolute;
+  z-index: 5;
+  width: 35%;
+  left: 35%;
+  top: 2rem;
 }
 
-.section-a .green-bg .header .menu-group .menu .menu-button::after {
+.menu-group .menu .menu-button::after {
   content: "";
   display: block;
-  padding-bottom: 0.2rem;
   border-bottom: 0.1rem solid white;
   transform: scaleX(0);
 }
 
-.section-a .green-bg .header .menu-group .menu .menu-button:hover:after {
-  transform: scaleX(0.5);
+.menu-group .menu .menu-button:hover:after {
+  transform: scaleX(0.3);
   transition: 0.3s linear;
 }
 
-.section-a .green-bg .header .menu-group .menu .menu-button a {
+.menu-group .menu .menu-button a {
   background-color: transparent;
   font-weight: 700;
   font-size: 1rem;
   padding: 0 2rem;
+  color: #fdfdfd;
 }
 
 .section-a .green-bg .text-group {
@@ -272,8 +283,10 @@ body {
   .card-content
   .card-content-time
   p {
-  padding: 1% 2%;
+  text-align: center;
+  width: 7rem;
   margin: 0 4% 3% 0;
+  padding: 0.3rem 0.25rem;
   background-color: transparent;
   border: 0.1rem solid #24d4c2;
   border-radius: 2rem;
@@ -284,6 +297,10 @@ body {
 .button-row-B {
   display: flex;
   justify-content: center;
+}
+
+.button-row-B {
+  padding-bottom: 8rem;
 }
 
 .button-row-A a,
@@ -308,6 +325,7 @@ body {
 .section-b {
   background-image: url(../img/landing-space-bg2.png);
   background-size: cover;
+  background-repeat: repeat;
 }
 
 .section-b .green-bg {
@@ -358,7 +376,6 @@ body {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  align-text: center;
   padding: 0.5rem 8rem;
 }
 
@@ -486,12 +503,19 @@ body {
   padding-left: 7.5rem;
 }
 
+.menu-group-bottom {
+  display: none;
+}
+
 /* Media Queries */
 /* Laptop */
 @media (max-width: 1366px) {
   /* responsive break points */
   html {
     font-size: 75%;
+  }
+  .menu-group-bottom {
+    display: none;
   }
 }
 
@@ -501,6 +525,26 @@ body {
   html {
     font-size: 62.5%;
   }
+  .section-a .green-bg .slide-container .slide-content .card-wrapper .card {
+    width: 52rem;
+  }
+  .section-a
+    .green-bg
+    .slide-container
+    .slide-content
+    .card-wrapper
+    .card
+    .card-content
+    .card-content-time
+    p {
+    font-size: 0.8rem;
+    width: 7rem;
+    margin: 0 4% 3% 0;
+    padding: 0.3rem 0.25rem;
+  }
+  .menu-group-bottom {
+    display: none;
+  }
 }
 
 /* Mobile Phone */
@@ -508,5 +552,81 @@ body {
   /* responsive break points */
   html {
     font-size: 45%;
+  }
+  .section-a .green-bg .text-group .text-group-1 {
+    padding: 2rem 8%;
+  }
+  .section-a .green-bg .slide-container .slide-content .card-wrapper .card {
+    width: 54rem;
+  }
+  .section-a
+    .green-bg
+    .slide-container
+    .slide-content
+    .card-wrapper
+    .card
+    .card-content
+    .card-content-time
+    p {
+    font-size: 1rem;
+    width: 8rem;
+  }
+
+  .menu-group {
+    display: none;
+  }
+
+  .menu-group-bottom {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+    padding: 0rem 1% 2rem;
+    background-color: #04863f;
+    padding-top: 0.8rem;
+  }
+
+  .menu-group-bottom .menu-bottom {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 0rem 5% 0.5rem;
+    line-height: 1.1;
+  }
+
+  .menu-group-bottom .menu-bottom button {
+    background-color: transparent;
+  }
+
+  .menu-group-bottom .menu-bottom button a {
+    color: #fdfdfd;
+    font-weight: 500;
+    letter-spacing: 0.2rem;
+    text-shadow: 0rem 0.4rem 0.2rem rgb(57, 57, 57);
+  }
+
+  .menu-group-bottom .menu-bottom .menu-button-bottom-1 img {
+    position: absolute;
+    bottom: 5rem;
+    left: 3rem;
+  }
+
+  .menu-group-bottom .menu-bottom .menu-button-bottom-1 {
+    margin-top: 5rem;
+  }
+
+  .menu-group-bottom .menu-bottom .menu-button-bottom-1,
+  .menu-group-bottom .menu-bottom .menu-button-bottom-2,
+  .menu-group-bottom .menu-bottom .menu-button-bottom-3,
+  .menu-group-bottom .menu-bottom .menu-button-bottom-4 {
+    cursor: pointer;
+  }
+
+  .section-a .green-bg .header a {
+    padding: 0.4rem 3%;
+    letter-spacing: 0.2rem;
+    font-size: 1.5rem;
   }
 }
