@@ -583,9 +583,8 @@ body {
     left: 0;
     display: flex;
     justify-content: space-between;
-    padding: 0rem 1% 2rem;
+    padding: 0.8rem 1% 0.2rem;
     background-color: #04863f;
-    padding-top: 0.8rem;
   }
 
   .menu-group-bottom .menu-bottom {
@@ -605,12 +604,13 @@ body {
     font-weight: 500;
     letter-spacing: 0.2rem;
     text-shadow: 0rem 0.4rem 0.2rem rgb(57, 57, 57);
+    font-size: 1.3rem;
   }
 
   .menu-group-bottom .menu-bottom .menu-button-bottom-1 img {
     position: absolute;
-    bottom: 5rem;
-    left: 3rem;
+    bottom: 3rem;
+    left: 2rem;
   }
 
   .menu-group-bottom .menu-bottom .menu-button-bottom-1 {
@@ -631,38 +631,13 @@ body {
   }
 }
 
-@media (max-width: 370px) {
+@media (max-width: 385px) {
   /* responsive break points */
   html {
     font-size: 38%;
   }
-  .menu-group-bottom {
-    padding: 0rem 3% 2rem;
-    background-color: #04863f;
-    padding-top: 0.8rem;
-  }
 
-  .menu-group-bottom .menu-bottom {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    padding: 0rem 5% 0.5rem;
-    line-height: 1.1;
-  }
-
-  .menu-group-bottom .menu-bottom button a {
-    font-weight: 600;
-    text-shadow: none;
-    font-size: 1.5rem;
-  }
-
-  .menu-group-bottom .menu-bottom .menu-button-bottom-1 img {
-    position: absolute;
-    bottom: 5rem;
-    left: 3rem;
-  }
-
-  .menu-group-bottom .menu-bottom .menu-button-bottom-1 {
-    margin-top: 5rem;
+  .section-a .green-bg .slide-container .slide-content .card-wrapper .card {
+    width: 57rem;
   }
 }
