@@ -630,3 +630,39 @@ body {
     font-size: 1.5rem;
   }
 }
+
+@media (max-width: 370px) {
+  /* responsive break points */
+  html {
+    font-size: 38%;
+  }
+  .menu-group-bottom {
+    padding: 0rem 3% 2rem;
+    background-color: #04863f;
+    padding-top: 0.8rem;
+  }
+
+  .menu-group-bottom .menu-bottom {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 0rem 5% 0.5rem;
+    line-height: 1.1;
+  }
+
+  .menu-group-bottom .menu-bottom button a {
+    font-weight: 600;
+    text-shadow: none;
+    font-size: 1.5rem;
+  }
+
+  .menu-group-bottom .menu-bottom .menu-button-bottom-1 img {
+    position: absolute;
+    bottom: 5rem;
+    left: 3rem;
+  }
+
+  .menu-group-bottom .menu-bottom .menu-button-bottom-1 {
+    margin-top: 5rem;
+  }
+}
