@@ -585,6 +585,7 @@ body {
     justify-content: space-between;
     padding: 0rem 1% 0rem;
     background-color: #04863f;
+    max-width: 100vw;
   }
 
   .menu-group-bottom .menu-bottom .menu-button-bottom-1 img {
@@ -655,5 +656,12 @@ body {
 
   .section-a .green-bg .slide-container .slide-content .card-wrapper .card {
     width: 57rem;
+  }
+}
+
+@media (max-width: 295px) {
+  /* responsive break points */
+  .menu-group-bottom .menu-bottom {
+    padding: 0 5%;
   }
 }
