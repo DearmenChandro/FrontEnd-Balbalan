@@ -1,5 +1,5 @@
 :root {
-  --bg: #1a4645;
+  --bg: #5f22d9;
 }
 
 * {
@@ -18,12 +18,13 @@ html {
 }
 
 body {
+  font-size: 1.1rem;
   background-color: var(--bg);
   color: #fdfdfd;
-  font-size: 1.1rem;
 }
 
 /* Header section */
+
 header .headclass .headsection {
   width: 100%;
   display: flex;
@@ -43,6 +44,7 @@ header .headclass .headsection #logo-tulisan {
 }
 
 /* Content Section */
+
 .content .content-user-role {
   display: flex;
   justify-content: center;
@@ -90,21 +92,21 @@ header .headclass .headsection #logo-tulisan {
 }
 
 /* CTA Section */
-.login-cta {
+.register-cta {
   display: flex;
   justify-content: center;
-  margin-bottom: 7rem;
+  margin-bottom: 17rem;
 }
 
-.login-cta a {
+.register-cta a {
   color: rgb(54, 168, 239);
 }
 
-.login-cta p {
+.register-cta p {
   opacity: 0.8;
 }
 
-.login-cta a::after {
+.register-cta a::after {
   content: "";
   display: block;
   padding-bottom: 0.1rem;
@@ -112,7 +114,7 @@ header .headclass .headsection #logo-tulisan {
   transform: scaleX(0);
 }
 
-.login-cta a:hover::after {
+.register-cta a:hover::after {
   transform: scaleX(0.8);
   transition: 0.2s linear;
 }
@@ -136,7 +138,7 @@ header .headclass .headsection #logo-tulisan {
   cursor: pointer;
 }
 
-.group-button #register-button {
+.group-button #login-button {
   background-color: #04863f;
   width: 100%;
   height: 3.5rem;
@@ -151,7 +153,7 @@ header .headclass .headsection #logo-tulisan {
   stroke-width: 0.1rem;
 }
 
-.group-button #register-button:hover {
+.group-button #login-button:hover {
   background-color: #025e2c;
 }
 
@@ -194,14 +196,15 @@ header .headclass .headsection #logo-tulisan {
     display: flex;
     justify-content: center;
   }
-  .login-cta {
+  .register-cta {
     display: flex;
     justify-content: center;
-    margin-bottom: 12rem;
+    margin-bottom: 19rem;
   }
   .content form {
     padding: 2rem 8%;
   }
+
   .group-button {
     padding: 2rem 8%;
   }

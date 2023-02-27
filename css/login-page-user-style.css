@@ -1,6 +1,5 @@
 :root {
-  --primary: #1a4645;
-  --bg: #051821;
+  --bg: #1a4645;
 }
 
 * {
@@ -10,6 +9,8 @@
   outline: none;
   border: none;
   text-decoration: none;
+  font-family: "Poppins", sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 html {
@@ -17,7 +18,6 @@ html {
 }
 
 body {
-  font-family: "Roboto", sans-serif;
   font-size: 1.1rem;
   background-color: var(--bg);
   color: #fdfdfd;
@@ -44,6 +44,20 @@ header .headclass .headsection #logo-tulisan {
 }
 
 /* Content Section */
+
+.content .content-user-role {
+  display: flex;
+  justify-content: center;
+}
+
+.content .content-user-role p {
+  font-family: "Poppins", sans-serif;
+  font-weight: 900;
+  letter-spacing: 0.15rem;
+  font-size: 1.4rem;
+  text-shadow: 0rem 0.3rem 0.3rem rgb(0, 0, 0);
+}
+
 .content form {
   justify-content: center;
   display: flex;
@@ -125,7 +139,7 @@ header .headclass .headsection #logo-tulisan {
 }
 
 .group-button #login-button {
-  background-color: #1a4645;
+  background-color: #04863f;
   width: 100%;
   height: 3.5rem;
   border-top-right-radius: 1rem;
@@ -140,7 +154,7 @@ header .headclass .headsection #logo-tulisan {
 }
 
 .group-button #login-button:hover {
-  background-color: #4cadac;
+  background-color: #025e2c;
 }
 
 /* Media Queries */
