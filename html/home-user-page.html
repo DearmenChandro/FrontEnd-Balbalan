@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title> Home User | BalbalanID</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+
+    <!-- Feather Icons -->
+    <script src="https://unpkg.com/feather-icons"></script>
+
+    <!-- My Style -->
+    <link rel="stylesheet" href="../css/home-user-page-style.css" />
+
+
+</head>
+
+<body>
+
+    <section class="body-bg">
+
+        <div class="body-bg-backdrop">
+
+            <div class="menu-group">
+                <div class="menu">
+                    <div class="menu-button">
+                        <a href="#">BERANDA</a>
+                    </div>
+                </div>
+                <div class="menu">
+                    <div class="menu-button" id="booking-menu">
+                        <a href="#">BOOKING</a>
+                    </div>
+                </div>
+                <div class="menu">
+                    <div class="menu-button">
+                        <a href="#">RIWAYAT</a>
+                    </div>
+                </div>
+                <div class="menu">
+                    <div class="menu-button">
+                        <a href="#">AKUN</a>
+                    </div>
+                </div>
+            </div>
+
+            <header class="headnav">
+
+                <img src="../img/logo-full.png" alt="">
+                <!-- <a href="login-page-provider.html"><i data-feather="menu"></i></a> -->
+                <a href="#y">
+                    <i data-feather="menu" id="#menu-btn"></i>
+                </a>
+
+            </header>
+
+            <section class="content">
+                <div class="content-text">
+                    <p>Lakukan Reservasi Lapangan Sekarang Juga!</p>
+                </div>
+                <div class="content-row-menu">
+
+                    <div class="content-row-menu-box">
+                        <h4>Jenis Olahraga</h4>
+                        <div class="content-row-menu-box-group">
+                            <div class="box-group-icon">
+                                <i data-feather="dribbble"></i>
+                            </div>
+                            <select name="sport-select" id="sport-select">
+                                <option value="hurr" id="hurr-text" selected disabled hidden>Pilih Olahragamu</option>
+                                <option value="0">BADMINTON</option>
+                                <option value="1">BASKET</option>
+                                <option value="2">FUTSAL</option>
+                            </select>
+                        </div>
+
+                    </div>
+
+                    <div class="content-row-menu-box">
+                        <h4>Tanggal</h4>
+                        <div class="content-row-menu-box-group">
+                            <div class="box-group-icon">
+                                <i data-feather="calendar"></i>
+                            </div>
+                            <input type="date" id="pilih-tanggal">
+                        </div>
+
+                    </div>
+
+                    <div class="content-row-menu-box">
+                        <h4>Jam</h4>
+                        <div class="content-row-menu-box-group">
+                            <div class="box-group-icon">
+                                <i data-feather="clock"></i>
+                            </div>
+                            <input type="time" id="time-start">
+                            <div class="garis-hubung">
+                                <p>-</p>
+                            </div>
+                            <input type="time" id="time-end">
+
+                        </div>
+
+                    </div>
+
+                    <div class="content-row-menu-box">
+
+                        <button class="content-row-menu-box-group" id="box-group-search">
+                            <i data-feather="search"></i>
+                        </button>
+
+                    </div>
+
+
+
+
+                </div>
+
+                <div class="menu-group-bottom">
+                    <div class="menu-bottom">
+
+                        <button class="menu-button-bottom-1">
+                            <img src="../img/rounded-balbalan-logo.png" alt="">
+                            <a href="#">BERANDA</a>
+                        </button>
+
+                    </div>
+                    <div class="menu-bottom">
+                        <button class="menu-button-bottom-2">
+                            <img src="../img/ball-icon.png" alt="">
+                            <a href="#">BOOKING</a>
+                        </button>
+                    </div>
+                    <div class="menu-bottom">
+                        <button class="menu-button-bottom-3">
+                            <img src="../img/riwayat-icon.png" alt="">
+                            <a href="#">RIWAYAT</a>
+                        </button>
+                    </div>
+                    <div class="menu-bottom">
+                        <button class="menu-button-bottom-4">
+                            <img src="../img/akun-icon.png" alt="">
+                            <a href="#">AKUN</a>
+                        </button>
+                    </div>
+                </div>
+
+            </section>
+
+
+            <!-- Feather Icons -->
+            <script>
+                feather.replace();
+            </script>
+
+        </div>
+
+    </section>
+
+</body>
+
+
+</html>
