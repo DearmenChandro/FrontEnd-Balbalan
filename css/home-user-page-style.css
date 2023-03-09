@@ -122,7 +122,7 @@ body {
   .content-row-menu-box-group
   .box-group-icon {
   background-color: #04863f;
-  padding: 0.2rem;
+  padding: 0.4rem;
   display: flex;
   align-items: center;
   border-top-left-radius: 0.4rem;
@@ -320,6 +320,23 @@ body {
 
   .body-bg .body-bg-backdrop .content .content-row-menu {
     padding: 0 12%;
+  }
+
+  .body-bg
+    .body-bg-backdrop
+    .content
+    .content-row-menu
+    .content-row-menu-box
+    .content-row-menu-box-group
+    select,
+  .body-bg
+    .body-bg-backdrop
+    .content
+    .content-row-menu
+    .content-row-menu-box
+    .content-row-menu-box-group
+    input {
+    text-align: center;
   }
 }
 
