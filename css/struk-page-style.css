@@ -37,6 +37,10 @@ body {
   z-index: 9999;
 }
 
+.navbar img {
+  width: 13rem;
+}
+
 .navbar svg {
   stroke-width: 0.1rem;
   cursor: pointer;

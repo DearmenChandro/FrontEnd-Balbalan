@@ -30,11 +30,8 @@ header .headclass .headsection {
   padding: 2rem 2%;
 }
 
-header .headclass .headsection #logo-tulisan {
-  height: 5rem;
-  width: 20rem;
-  margin-left: 1rem;
-  padding-top: 2rem;
+header .headclass .headsection img {
+  width: 13rem;
 }
 
 /* Content Section */

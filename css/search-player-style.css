@@ -1,0 +1,142 @@
+:root {
+  --bg: #1a4645;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  text-decoration: none;
+  /* font-family: "Montserrat", sans-serif; */
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-color: var(--bg);
+  color: #fdfdfd;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem 3%;
+}
+
+.header a img {
+  width: 13rem;
+}
+
+.header .header-menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 30rem;
+}
+
+.header .header-menu .menu a {
+  color: #fdfdfd;
+  font-family: "Poppins";
+}
+
+.header .header-burger-icon {
+  display: flex;
+  align-items: center;
+}
+
+.header .header-menu .menu .menu-button::after {
+  content: "";
+  display: block;
+  border-bottom: 0.1rem solid #fdfdfd;
+  padding-bottom: 0.2rem;
+  transform: scaleX(0);
+}
+
+.header .header-menu .menu .menu-button:hover:after {
+  transform: scaleX(0.6);
+  transition: 0.3s linear;
+}
+
+.search-row {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 3%;
+}
+
+.search-row .search-and-input {
+  display: flex;
+  flex: 1 1 60%;
+}
+
+.search-row .search-and-input .search {
+  padding-right: 2%;
+  display: flex;
+  column-gap: 4%;
+  flex: 1 1 35%;
+}
+
+.search-row .search-and-input .search button {
+  color: #fdfdfd;
+  background-color: #1f6230;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  padding: 3%;
+  display: flex;
+  align-items: center;
+}
+
+.search-row .search-and-input .search input {
+  padding: 0.5rem 5%;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  border: 1px solid #f8bc24;
+  background-color: transparent;
+}
+
+.search-row .search-and-input .input {
+  flex: 1 1 65%;
+  display: flex;
+  column-gap: 2%;
+  padding-left: 5%;
+}
+
+.search-row .search-and-input #sport-select {
+  color: #fdfdfd;
+  background-color: var(--bg);
+  border: 1px solid #f8bc24;
+  padding: 0 2%;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  font-size: 0.8rem;
+  letter-spacing: 0.2rem;
+}
+
+.search-row .search-and-input #date-select {
+  color: #fdfdfd;
+  background-color: var(--bg);
+  border: 1px solid #f8bc24;
+  padding: 0 2%;
+  border-radius: 10px;
+  font-size: 0.8rem;
+  letter-spacing: 0.2rem;
+}
+
+.search-row .features-group {
+  flex: 1 1 40%;
+  display: flex;
+  align-items: center;
+  column-gap: 7%;
+  font-family: "Montserrat", sans-serif;
+  letter-spacing: 0.1rem;
+  font-size: 0.8rem;
+}
