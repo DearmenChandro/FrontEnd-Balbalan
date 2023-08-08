@@ -76,6 +76,7 @@ body {
 
 .section-a .bigText-row {
   text-align: center;
+  line-height: 4rem;
 }
 
 .section-a .bigText-row h3 {
@@ -91,12 +92,13 @@ body {
 
 .section-a .bigText-row h6 {
   letter-spacing: 0.05rem;
+  font-size: 1.7rem;
 }
 
 .section-a .email-row {
   display: flex;
   flex-wrap: wrap;
-  margin-top: 2rem;
+  margin-top: 4rem;
   justify-content: center;
   padding: 0 25%;
 }
@@ -137,7 +139,7 @@ body {
 
 .section-a .email-row .email-row-text {
   text-align: center;
-  margin: 2rem 0 12rem;
+  margin: 2rem 0 11rem;
   font-size: 1.5rem;
 }
 
