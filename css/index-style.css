@@ -111,6 +111,7 @@ body {
   display: flex;
   align-items: center;
   column-gap: 0.5rem;
+  margin-top: .25rem;
 }
 
 .section-a .email-row form .emailWrapper input {
@@ -135,6 +136,12 @@ body {
   color: #276967;
   background-color: #f8bc24;
   letter-spacing: -0.1rem;
+  cursor: pointer;
+}
+
+.section-a .email-row form .result {
+  margin-top: .5rem;
+  font-size: 1.25rem;
 }
 
 .section-a .email-row .email-row-text {
