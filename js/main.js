@@ -1,4 +1,4 @@
-const BACKEND_HOST = 'https://ragakita-backend.vercel.app'
+const BACKEND_HOST = 'https://ragakita-backend.up.railway.app'
 
 const waitlistFormEl = document.getElementById('email-row-emailForm')
 const requestResultEl = document.getElementById('requestResult')
