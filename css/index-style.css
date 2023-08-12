@@ -23,8 +23,23 @@ html {
 }
 
 @font-face {
+  font-family: "Poppins";
+  src: url("../font/Poppins-Regular.otf") format("truetype");
+}
+
+@font-face {
   font-family: "Product Sans Bold";
   src: url("../font/FontsFree-Net-ProductSans-Black.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Lemonmilk Regular";
+  src: url("../font/LEMONMILK-Regular.otf") format("truetype");
+}
+
+@font-face {
+  font-family: "Lemonmilk Light";
+  src: url("../font/LEMONMILK-Light.otf") format("truetype");
 }
 
 ::placeholder {
@@ -111,7 +126,7 @@ body {
   display: flex;
   align-items: center;
   column-gap: 0.5rem;
-  margin-top: .25rem;
+  margin-top: 0.25rem;
 }
 
 .section-a .email-row form .emailWrapper input {
@@ -140,7 +155,7 @@ body {
 }
 
 .section-a .email-row form .result {
-  margin-top: .5rem;
+  margin-top: 0.5rem;
   font-size: 1.25rem;
 }
 
@@ -148,6 +163,106 @@ body {
   text-align: center;
   margin: 2rem 0 11rem;
   font-size: 1.5rem;
+}
+
+.section-b {
+  background-image: url(../img/background-picture2.png);
+  background-size: cover;
+}
+
+.section-b h1 {
+  padding: 6rem 0 4rem 7%;
+  color: #f8bc24;
+  font-family: "Lulo Clean Bold";
+  letter-spacing: -0.8rem;
+}
+
+.section-b .text-row-b {
+  text-align: center;
+  padding: 0 15%;
+  font-family: "Product Sans Bold";
+}
+
+.section-b .content-b-row {
+  display: flex;
+  justify-content: center;
+  margin-top: 4rem;
+  column-gap: 5%;
+  padding: 0 15% 8rem 15%;
+}
+
+.section-b .content-b-row .content-b {
+  background-color: #04863f;
+  text-align: center;
+  padding: 1.5rem;
+  border-radius: 3rem;
+  box-shadow: -3px 5px 5px rgba(0, 0, 0, 0.6);
+  -webkit-border-radius: 3rem;
+  -moz-border-radius: 3rem;
+  -ms-border-radius: 3rem;
+  -o-border-radius: 3rem;
+}
+
+.section-b .content-b-row .content-b h5 {
+  font-family: "Lemonmilk Light";
+  text-shadow: -1px 2px 5px rgba(0, 0, 0, 0.6);
+  font-size: 1.8rem;
+  padding: 0 13%;
+}
+
+.section-b .content-b-row .content-b h5 span {
+  color: #f8bc24;
+}
+
+.section-b .content-b-row .content-b p {
+  font-family: "Poppins";
+  text-shadow: -1px 2px 5px rgba(0, 0, 0, 0.6);
+  font-size: 1.5rem;
+  padding: 0.5rem 11%;
+  background-color: #e54040;
+  margin: 1rem 0;
+  border-radius: 0.8rem;
+  -webkit-border-radius: 0.8rem;
+  -moz-border-radius: 0.8rem;
+  -ms-border-radius: 0.8rem;
+  -o-border-radius: 0.8rem;
+  box-shadow: -1px 5px 5px rgba(0, 0, 0, 0.4);
+  line-height: 1.7rem;
+}
+
+.section-b .content-b-row #green p {
+  background-color: #2aba12;
+}
+
+.section-c {
+  background-image: url(../img/background-picture3.png);
+  background-size: cover;
+  padding-bottom: 8rem;
+}
+
+.section-c p {
+  font-family: "Product Sans Bold";
+}
+
+.section-c h1 {
+  font-family: "Lulo Clean Bold";
+  letter-spacing: -1.5rem;
+  color: #f8bc24;
+  font-size: 6rem;
+}
+
+.section-c .text-group-c {
+  padding: 6rem 7%;
+}
+
+.section-c .section-c-contact {
+  padding: 0 7%;
+}
+
+.section-c .section-c-contact .section-c-contact-group {
+  display: flex;
+  align-items: center;
+  column-gap: 0.5%;
 }
 
 /* Media Queries */
