@@ -24,21 +24,28 @@ nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 2rem 7%;
+  padding: 4rem 7%;
 }
 
 nav img {
-  width: 13rem;
+  width: 28rem;
+}
+
+nav button {
+  background-color: transparent;
 }
 
 nav svg {
-  width: 2.5rem;
+  width: 8rem;
+  color: #fdfdfd;
 }
 
 h1 {
-  margin-top: 2rem;
+  margin-top: 1em;
   color: #f8bc24;
   text-align: center;
+  font-size: 3em;
+  margin-bottom: 1em;
 }
 
 .account-img-row {
@@ -47,14 +54,14 @@ h1 {
 }
 
 .account-img-row .account-img-box img {
-  width: 10rem;
-  margin-top: 2rem;
+  width: 16rem;
+  margin: 2rem 0 0.8rem;
 }
 
 .account-img-row .account-img-box .upload-photo {
   display: flex;
   align-items: center;
-  font-size: 0.6em;
+  font-size: 1.2em;
   column-gap: 5%;
   justify-content: center;
   margin-bottom: 2rem;
@@ -65,7 +72,7 @@ h1 {
 }
 
 .data-box {
-  padding: 0 7%;
+  padding: 2em 7% 4em;
 }
 
 .data-box .data-diri-row {
@@ -74,8 +81,9 @@ h1 {
   justify-content: space-between;
 }
 
-.data-box .data-diri-row h3 {
-  font-size: 1em;
+.data-box .data-diri-row h3,
+.data-box .data-diri-row p {
+  font-size: 2em;
 }
 
 .button-row {
@@ -112,9 +120,9 @@ h1 {
 .menubar {
   display: flex;
   justify-content: space-between;
-  padding: 1% 3%;
+  padding: 1% 7%;
   background-color: #04863f;
-  position: absolute;
+  position: fixed;
   width: 100vw;
   bottom: 0;
   right: 0;
@@ -122,25 +130,66 @@ h1 {
 }
 
 .menubar .menubar-features {
-  flex: 1 1 25%;
-  display: flex;
-  justify-content: center;
-  align-items: end;
-  flex-wrap: wrap;
+  text-align: center;
 }
 
 .menubar .menubar-features p {
   color: #fdfdfd;
+  font-size: 1.5em;
 }
 
 .menubar .menubar-features #icon-ragakita {
-  position: absolute;
-  width: 9rem;
+  position: fixed;
+  left: 2em;
+  bottom: 1em;
+  width: 11em;
 }
 
 .menubar .menubar-features #ball,
 .menubar .menubar-features #riwayat,
 .menubar .menubar-features #fake,
 .menubar .menubar-features #akun {
-  width: 3em;
+  width: 5em;
+}
+
+/* Media Queries */
+
+/* Surface */
+@media (max-width: 920px) {
+  /* responsive break points */
+  html {
+    font-size: 70%;
+  }
+}
+
+/* Ipad */
+@media (max-width: 825px) {
+  /* responsive break points */
+  html {
+    font-size: 62.5%;
+  }
+}
+
+/* Surface Duo */
+@media (max-width: 545px) {
+  /* responsive break points */
+  html {
+    font-size: 45%;
+  }
+}
+
+/* Mobile Phone */
+@media (max-width: 420px) {
+  /* responsive break points */
+  html {
+    font-size: 50%;
+  }
+}
+
+/* Pixel 5 */
+@media (max-width: 395px) {
+  /* responsive break points */
+  html {
+    font-size: 45%;
+  }
 }
