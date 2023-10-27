@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Account Information | RagaKita</title>
+    <link rel="stylesheet" href="../css/account-information-style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <script src="https://unpkg.com/feather-icons"></script>
+</head>
+
+<body>
+    <nav>
+        <img src="../img/logo-ragaktia.png" alt="ragakita.png">
+        <i data-feather="menu"></i>
+    </nav>
+
+    <h1>Account Information</h1>
+
+    <div class="account-img-row">
+        <div class="account-img-box">
+            <img src="../img/acount-user-img.png" alt="account.img">
+            <div class="upload-photo">
+                <i data-feather="camera"></i>
+                <u>Update Profile Picture</u>
+            </div>
+        </div>
+    </div>
+
+    <div class="data-box">
+        <div class="data-diri-row" id="nama">
+            <p>Nama</p>
+            <h3>Jane Doe</h3>
+        </div>
+        <div class="data-diri-row" id="username">
+            <p>Username</p>
+            <h3>janedoe23</h3>
+        </div>
+        <div class="data-diri-row" id="email">
+            <p>Email</p>
+            <h3>janedoe@gmail.com</h3>
+        </div>
+        <div class="data-diri-row" id="number">
+            <p>Nomor Handphone</p>
+            <h3>081234567891</h3>
+        </div>
+    </div>
+
+    <div class="button-row">
+        <div class="button-wrapper">
+            <div class="button-box">
+                <button class="button" id="edit-profile-button">
+                    <h4>EDIT PROFILE</h4>
+                </button>
+            </div>
+
+            <div class="button-box">
+                <button class="button" id="log-out-button">
+                    <h4>LOG OUT</h4>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <div class="menubar">
+        <a href="#BERANDA">
+            <div class="menubar-features">
+                <img src="../img/rk-logo-only.png" alt="ragakita.pict" id="icon-ragakita">
+                <img src="../img/beranda-fake-icon.png" alt="" id="fake">
+                <p>BERANDA</p>
+            </div>
+        </a>
+        <a href="#BOOKING">
+            <div class=" menubar-features">
+                <img src="../img/ball-icon.png" alt="ball.pict" id="ball">
+                <p>BOOKING</p>
+            </div>
+        </a>
+        <a href="#RIWAYAT">
+            <div class="menubar-features">
+                <img src="../img/riwayat-icon.png" alt="riwayat.pict" id="riwayat">
+                <p>RIWAYAT</p>
+            </div>
+        </a>
+        <a href="AKUN">
+            <div class="menubar-features">
+                <img src="../img/akun-icon.png" alt="akun.pict" id="akun">
+                <p>AKUN</p>
+            </div>
+        </a>
+    </div>
+
+    <script>
+        feather.replace();
+    </script>
+</body>
+
+</html>

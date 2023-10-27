@@ -1,0 +1,146 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  text-decoration: none;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  color: #fdfdfd;
+  background-color: #025628;
+  background-image: url(../img/account-information-bg.png);
+  background-size: cover;
+  background-repeat: repeat;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2rem 7%;
+}
+
+nav img {
+  width: 13rem;
+}
+
+nav svg {
+  width: 2.5rem;
+}
+
+h1 {
+  margin-top: 2rem;
+  color: #f8bc24;
+  text-align: center;
+}
+
+.account-img-row {
+  display: flex;
+  justify-content: center;
+}
+
+.account-img-row .account-img-box img {
+  width: 10rem;
+  margin-top: 2rem;
+}
+
+.account-img-row .account-img-box .upload-photo {
+  display: flex;
+  align-items: center;
+  font-size: 0.6em;
+  column-gap: 5%;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+
+.account-img-row .account-img-box .upload-photo svg {
+  width: 1rem;
+}
+
+.data-box {
+  padding: 0 7%;
+}
+
+.data-box .data-diri-row {
+  display: flex;
+  padding: 2% 0;
+  justify-content: space-between;
+}
+
+.data-box .data-diri-row h3 {
+  font-size: 1em;
+}
+
+.button-row {
+  display: flex;
+  justify-content: center;
+  margin-top: 3rem;
+}
+
+.button-row .button-wrapper .button-box .button {
+  padding: 0.8em 7%;
+  margin: 7% 0;
+  width: 10em;
+  border-radius: 2em;
+  -webkit-border-radius: 2em;
+  -moz-border-radius: 2em;
+  -ms-border-radius: 2em;
+  -o-border-radius: 2em;
+  box-shadow: 0em 0.2em 0.9em rgba(253, 253, 253, 0.467);
+}
+
+.button-row .button-wrapper .button-box #edit-profile-button {
+  background-color: #2aba12;
+}
+
+.button-row .button-wrapper .button-box #log-out-button {
+  background-color: #e54040;
+}
+
+.button-row .button-wrapper .button-box .button h4 {
+  font-weight: 800;
+  color: #fdfdfd;
+}
+
+.menubar {
+  display: flex;
+  justify-content: space-between;
+  padding: 1% 3%;
+  background-color: #04863f;
+  position: absolute;
+  width: 100vw;
+  bottom: 0;
+  right: 0;
+  left: 0;
+}
+
+.menubar .menubar-features {
+  flex: 1 1 25%;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  flex-wrap: wrap;
+}
+
+.menubar .menubar-features p {
+  color: #fdfdfd;
+}
+
+.menubar .menubar-features #icon-ragakita {
+  position: absolute;
+  width: 9rem;
+}
+
+.menubar .menubar-features #ball,
+.menubar .menubar-features #riwayat,
+.menubar .menubar-features #fake,
+.menubar .menubar-features #akun {
+  width: 3em;
+}
